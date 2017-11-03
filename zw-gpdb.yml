@@ -1,0 +1,19 @@
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+  client:
+    serviceUrl:
+      defaultZone: http://zw-register:8761/eureka/
+
+server:
+    port: 8765
+
+
+hikaricp:
+    url: jdbc:postgresql://192.168.24.239:5432/postgres
+    username: gpadmin
+    password: pivotal
+
+
+
