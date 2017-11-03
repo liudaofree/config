@@ -1,0 +1,27 @@
+eureka:
+  instance:
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
+  client:
+    serviceUrl:
+      defaultZone: http://zw-register:8761/eureka/
+
+
+server:
+  port: 8762
+
+#Geode persistence
+geode:
+  cache:
+    server:
+      host: 192.168.24.105
+      port: 40404
+    log:
+      level: config
+
+swagger:
+    basepackage: com.zw.geode
+    service:
+        name: Module
+        description: 模块APIs文档
+        developer: 中位科技开发团队
