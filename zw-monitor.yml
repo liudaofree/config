@@ -1,0 +1,16 @@
+server:
+    port: 8764
+
+security:
+    user:
+        name: whb
+        password: 123456
+        role: USER
+eureka:
+     instance:
+        preferIpAddress: true
+     client:
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+          defaultZone: http://zw-register:8761/eureka/
