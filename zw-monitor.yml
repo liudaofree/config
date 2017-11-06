@@ -16,13 +16,7 @@ eureka:
           defaultZone: http://zw-register:8761/eureka/
           
 
+spring.boot.admin.routes.endpoints: env,metrics,trace,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,hystrix.stream,turbine.stream
 
-spring: 
-    boot: 
-        admin: 
-            routes: 
-                endpoints: env,metrics,dump,jolokia,info,configprops,trace,logfile,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream
-            turbine:
-                clusters: default
-                location: turbine 
+
 
