@@ -40,6 +40,6 @@ eureka:
 
 security:
     user:
-        name: admin
-        password: admin
+        name: whb
+        password: 123456
         role: USER
