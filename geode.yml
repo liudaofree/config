@@ -12,7 +12,7 @@ eureka:
 
 
 server:
-  port: 8762
+  port: 8770
 
 management: 
   security: 
