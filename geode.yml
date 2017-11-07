@@ -1,20 +1,25 @@
+spring:
+  application:
+    name: geode
 eureka:
-  instance:
-    statusPageUrlPath: /info
-    healthCheckUrlPath: /health
   client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
     serviceUrl:
-      defaultZone: http://zw-register:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
+
 
 
 server:
   port: 8762
 
-#Geode persistence
+management.security.enabled: false
+
 geode:
   cache:
     server:
-      host: 192.168.24.105
+      host: localhost
       port: 40404
     log:
       level: config
