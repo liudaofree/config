@@ -14,7 +14,9 @@ eureka:
 server:
   port: 8762
 
-management.security.enabled: false
+management: 
+  security: 
+    enabled: false
 
 geode:
   cache:
