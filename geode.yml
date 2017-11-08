@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: geode
 eureka:
   client:
     enabled: true
