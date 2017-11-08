@@ -7,7 +7,7 @@ eureka:
       defaultZone: http://zw-register:8761/eureka/
 
 server:
-    port: 8765
+    port: 8771
 
 
 hikaricp:
