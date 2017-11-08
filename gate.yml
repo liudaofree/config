@@ -15,6 +15,7 @@ server:
     port: 8780 #启动端口
 #
 zuul:
+  prefix: /api
   routes:
     back:
       path: /data-geode/**
