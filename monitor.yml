@@ -4,7 +4,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://192.168.99.100:8761}/eureka/
+      defaultZone: ${EUREKA_SERVICE_URL:http://192.168.24.231:8761}/eureka/
 
 management.security.enabled: false
 
