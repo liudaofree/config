@@ -18,7 +18,7 @@ management:
 geode:
   cache:
     server:
-      host: localhost
+      host: 192.168.24.239
       port: 40404
     log:
       level: config
