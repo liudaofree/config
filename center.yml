@@ -1,7 +1,9 @@
-server:
-  port: 8761
+ server:
+   port: 8761
 
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+ eureka:
+ #  instance:
+ #      prefer-ip-address: true
+   client:
+       registerWithEureka: false
+       fetchRegistry: false
